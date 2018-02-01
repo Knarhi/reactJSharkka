@@ -1,0 +1,150 @@
+.App {
+  text-align: center;
+  background-color: #9b000e;
+  sdf_bdfackground-image: url("./img/background.png");
+  
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.firmAndName {
+  background-color: lightgrey;
+  width: 70%;
+}
+
+.jobType {
+  background-color: lightblue;
+  width: 30%;
+}
+
+.card {
+  border-style: solid;
+  border-color: #0000;
+  border-width: 10px;
+  border-radius: 2px;
+}
+
+.dates {
+  border: solid;
+  border-color: lightgrey;
+}
+
+.ingress {
+  border: solid;
+  border-color: lightgrey;
+  background-color: white;
+}
+
+.emailAndLocation {
+  border: solid;
+  border-color: lightgrey;
+}
+
+.jobDescription {
+  border: solid;
+  border-color: lightgrey;
+  background-color: #910a0a;
+  padding: 0px;
+}
+
+.panel-group {
+  margin-bottom: 0;
+  
+}
+
+.panel-group .panel {
+  border-radius: 0px;
+}
+
+.panel-title>.small, .panel-title>.small>a, .panel-title>a, .panel-title>small, .panel-title>small>a{
+  cursor: pointer;
+}
+
+input[type=checkbox], input[type=radio] {
+  cursor: pointer;
+}
+
+.filterCheckBoxs{
+  background-color: #0000;
+  
+}
+
+.organization {
+  font-size: 9vw;
+}*
+
+.pagetitle {
+  font-size: 5vw;
+}
+
+@media screen and (min-width: 900px) {
+   .pagetitle {
+     font-size: 45px;
+   }
+   .organization {
+      font-size: 81px;
+   }
+}
+
+.form-control {
+  max-width: 300px;
+}
+
+.form-group {
+  padding-left: 15px;
+}
+
+.aboutModal {
+  width:100vw;
+}
+
+#jobtype1 {
+  background-color:lightblue;
+}
+
+#jobtype2 {
+  background-color:skyblue;
+}
+
+#jobtype3 {
+  background-color:lightgreen;
+}
+
+#jobtype4 {
+  background-color:aqua;
+}
+
+#jobtype5 {
+  background-color:cadetblue;
+}
+
+#jobtype6 {
+  background-color:greenyellow;
+}
+
+#jobtype7 {
+  background-color:grey;
+}
